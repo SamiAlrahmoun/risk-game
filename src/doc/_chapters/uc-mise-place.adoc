@@ -1,21 +1,24 @@
-= Use Case 1: Mise en place
+= Use Case 1: Initialisation du jeu
 
 == Description
+L'initialisation du Jeu consiste à placer les cartes dans la pioche.
+Chaque joueur choisit une couleur parmi les couleurs disponibles et prends les pions de cette couleur, ils représentent son armée. Il y a 3 types de pions , infanteries ou cavaleries ou artilleries.
+Le nombre de régiments de départ distribuée par l ‘arbitre dépend du nombre de joueurs
 
-Entre deux et six joueurs se trouvent pour jouer à Risk.
-L'arbitre (Système) prépare et distribue les cartes aux joueurs et les armées selon le nombre de joueur present dans la partie.
-Chaque joueur prend une couleur, l'arbitre attribut la position de chaque joueur dans la partir
+== Portée
+* Système
 
-Niveau:: Stratégique
-Portée:: Système
-Priorité:: Haute
-Échéance:: 1e version
+== Priorité:
+ * Haute
+
+== Échéance:
+* 1e version
 
 == Acteurs principaux
 
 . Les joueurs
 . L'arbitre
-4
+
 == Acteurs de soutien
 
 * Aucun pour l'instant
@@ -26,25 +29,26 @@ Priorité:: Haute
 
 == Pré-conditions
 
-* L'arbitre et les joueurs peuvent communiquer entre-eux.
-* L'arbitre attribut les postions des joueurs.
-* Le jeu de carte est complet et disponible.
-* Les armées sont aux complet.
-
+1. Les joueurs sont connectés au jeu.
+2. Le nombre de joueurs et déterminé.
 
 == Post-conditions
 
 === Condition finale de réussite
+* Tous les territoires ont été réclamés.
+* Tous les régiments de départ on été bien placé.
 
-* Chaque joueur connait son ordre(position).
-* Chaque joueur connait sa mission.
-* Tous les joueurs en place leurs soldats sur le plateau.
+
 
 === Condition finale d'échec
 
-* Les joueurs n'ont pas recu leurs missions.
-* Certains joueurs ont la meme position.
-* Les joueurs n'ont pas reçu leurs cartes et les armees.
+* Il reste un territoire vide ou plus.
+
+* Il reste un nombre de régiments de départ non placés sur les territoires.
+
+
+* Un ou plusieurs joueurs se déconnectent.
+
 
 
 === Garanties minimales
@@ -53,18 +57,14 @@ Priorité:: Haute
 
 == Événement déclencheur
 
-Les deux joueurs se retrouvent et souhaitent s'affronter.
+* Les joueurs veulent commencer une partie du jeu RISK.
 
 == Scénario nominal
+1. L’arbitre initialise le plateau de jeu et place cartes dans la pile.
+2. L'arbitre définit le tour des joueur (le premier joueur est le joueur qui se connecte en premier et pour le reste des joueurs l’arbitre définit le tour au hasard)
+3. Chaque joueur choisit  une couleur et prend les pions correspondants à cette couleur.
+4. L’arbitre distribue les régiments de départ aux joueurs .
 
-
-[arabic]
-// To Do
-. L'arbitre distribue les cartes et soldats.
-. Chaque joueur choisit une couleur.
-. L'arbitre désigne le joueur qui commencera la partie.
-. Chaque joueurs choisissent des territoires et positionnent les soldats sur les territoires choisis.
-. Début du tour.
 
 == Extensions
 
@@ -74,15 +74,11 @@ Les deux joueurs se retrouvent et souhaitent s'affronter.
 
 == Fréquence
 
-* Le nombre de parties jouées en même temps est inconu.
+* Au début de chaque nouvelle partie.
 
-== Hypothèses
+== Exigences particulières
 
-* Il existe un chemin de communication entre l'arbitre et les joueurs et entre les joueurs.
-
-== Exigences particulières 
-
-* Aucun
+* Aucune
 
 
 
