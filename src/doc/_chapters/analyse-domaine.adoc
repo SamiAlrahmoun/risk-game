@@ -23,7 +23,7 @@ Un seul des joueurs commence la partie, l'initiateur.
 === Arbitre
 L’arbitre veille au bon déroulement des parties. Il calcule les effets à appliquer en début et fin de tour.
 
-
+include::uc-mise-place.adoc[leveloffset=+2]
 
 
 == Conclusion

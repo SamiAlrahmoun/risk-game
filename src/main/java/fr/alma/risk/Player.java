@@ -1,5 +1,5 @@
 package fr.alma.risk;
-import fr.alma.risk.utils.Common;
+
 
 import java.util.ArrayList;
 
@@ -24,8 +24,8 @@ public class Player {
      */
     private int availableTroops;
 
-    private Common.Color color;
-    private ArrayList<Country> countriesList = new ArrayList<>();
+    //private Common.Color color;
+    private ArrayList<Territory> countriesList = new ArrayList<>();
     private ArrayList<Continent> continentsList=new ArrayList<>();
 
     public Player(String name){
@@ -49,17 +49,16 @@ public class Player {
         return userId;
     }
 
-    public String getName() {
+  /*  public String getName() {
         return name;
     }
-
     public Common.Color getColor() {
         return color;
-    }
+    }*/
 
-    public void setColor(Common.Color color) {
+   /* public void setColor(Common.Color color) {
         this.color = color;
-    }
+    }*/
 
     public String getSessionId() {
         return sessionId;

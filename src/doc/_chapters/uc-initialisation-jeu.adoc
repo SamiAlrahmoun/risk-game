@@ -5,19 +5,22 @@ L'initialisation du Jeu consiste à placer les cartes dans la pioche.
 Chaque joueur choisit une couleur parmi les couleurs disponibles et prends les pions de cette couleur, ils représentent son armée. Il y a 3 types de pions , infanteries ou cavaleries ou artilleries.
 Le nombre de régiments de départ distribuée par l ‘arbitre dépend du nombre de joueurs
 
+== Niveau
+ * Stratégique.
+
 == Portée
-* Système
+* Système.
 
 == Priorité:
- * Haute
+ * Haute.
 
 == Échéance:
 * 1e version
 
 == Acteurs principaux
 
-. Les joueurs
-. L'arbitre
+. Les joueurs.
+. L'arbitre.
 
 == Acteurs de soutien
 
@@ -51,7 +54,7 @@ Le nombre de régiments de départ distribuée par l ‘arbitre dépend du nombr
 
 
 
-=== Garanties minimales
+== Garanties minimales
 
 * Aucune
 

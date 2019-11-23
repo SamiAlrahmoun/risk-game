@@ -1,9 +1,10 @@
 package fr.alma.risk;
 
+import org.springframework.boot.SpringApplication;
+
 public class RiskServer {
 
     public static void main(String[] args) {
-        System.out.println("Risk Server");
-        System.out.println("test");
+        SpringApplication.run(AcessJpaApp.class, args);
     }
 }
