@@ -1,0 +1,78 @@
+
+=== Revision History +
+
+[cols=",,",options="header",]
+|===
+|Date |Author |Description of change
+| -|Sami AL RAHMOUN |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+*Use Case:* Piocher une carte.
+
+*Id*: UC- 005
+
+*Description*
+
+Le joueur recoit une carte térritoire de la part de l'arbitre après avoir envahi au moins
+un térritoire pendans son tour.
+
+
+*Niveau:* sub-function
+
+*Acteurs principaux*
+
+L'arbitre.
+
+*Acteurs de soutien*
+
+Le joueur.
+
+*Parties prenantes et intérêts*
+
+Les joueurs.
+
+*Pre-Conditions*
+
+ Le joueur a envahi au moins un térritoire énemi durant le tour.
+
+*Post-conditions*
+
+[.underline]#Condition finale de réussite#:
+
+Le joueur pioche une seule carte territoire de la pile.
+
+
+[.underline]#Condition finale d'échec#:
+
+ Le joueur ne pioche pas de carte territoire.
+
+[.underline]#Garanties minimales#
+
+
+*Événement déclencheur*
+
+ Le joueur a fini d'envahir un térritoire énemi.
+
+
+=== Scénario nominal
+
+Le joueur reçoit la première carte térritoire de la pile
+et l'ajoute à la main.
+
+
+=== Extensions
+
+=== Variantes
+
+*Fréquence:* 
+
+*Hypothèses:*
+
+
+=== Exigences particulières

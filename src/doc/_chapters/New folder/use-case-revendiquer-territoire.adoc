@@ -1,0 +1,86 @@
+
+=== Revision History +
+
+[cols=",,",options="header",]
+|===
+|Date |Author |Description of change
+| -|Sami AL RAHMOUN |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+*Use Case:* Revendiquer territoire
+
+*Id*: UC- 001.1
+
+*Description*
+
+La revendiquation des térritoires est l'étape qui suit la mise en place du jeu.
+  Cette étape consiste à placer tous les régiments de départ dans les térritoires
+  vide du jeu.
+
+
+*Niveau:* sub-function
+
+*Acteurs principaux*
+
+Le joueur.
+
+*Acteurs de soutien*
+
+L'arbitre.
+
+*Parties prenantes et intérêts*
+
+Les joueurs.
+
+*Pre-Conditions*
+
+* Les joueurs sont connectés au jeu.
+* Le nombre de joueurs est déterminé.
+* Le térritoire revendiqué doit être vide.
+
+
+*Post-conditions*
+
+[.underline]#Condition finale de réussite#:
+
+Tous les territoires ont été revendiqués.
+
+
+[.underline]#Condition finale d'échec#:
+
+* Placer un régiment de départ dans le même térritoire déjà revendiqué.
+* Un territoire ou plus reste vide.
+
+[.underline]#Garanties minimales#
+
+
+*Événement déclencheur*
+
+Fin du choix de tour des joueur.
+
+
+=== Scénario nominal
+
+1. Le joueur qui a été choisi pour commencer revendique le premier térritoire.
+2. Le joueur prend un régiment de départ.
+3. Le régiment de départ est placé sur un térritoire vide.
+4. Le joueur suivant place un régiment de départ sur un territoire vide et ainsi de suite.
+5. l'étape se termine quand tous les térritoire sont revendiqués.
+
+
+=== Extensions
+
+=== Variantes
+
+*Fréquence:* Au début du jeu avant de commencer une partie.
+
+*Hypothèses:*
+
+
+=== Exigences particulières

@@ -1,0 +1,105 @@
+
+=== Revision History +
+
+[cols=",,",options="header",]
+|===
+|Date |Author |Description of change
+| -|Sami AL RAHMOUN |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+*Use Case:* Initialiser le jeu
+
+*Id*: UC- 001
+
+*Description*
+
+Entre trois et six joueurs se trouvent pour jouer à Risk.L'arbitre distribue les
+cartes aux joueurs et les armées selon le nombre de joueur present dans la partie.
+Chaque joueur choisit une couleur, l'arbitre attribut la position de chaque joueur
+dans la partir.
+
+*Niveau:* sub-function
+
+*Acteurs principaux*
+
+L'arbitre.
+
+*Acteurs de soutien*
+
+Aucun.
+
+*Parties prenantes et intérêts*
+
+Les joueurs.
+
+*Pre-Conditions*
+
+Tous les joueurs sont connectés.
+
+*Post-conditions*
+
+[.underline]#Condition finale de réussite#:
+
+* Chaque joueur a une couleur et les régiments de depart qui corréspondent à cette couleur.
+* Le tour de chaque joueur est défini.
+* Le regiments de depart sont place dans les territoires.
+
+
+[.underline]#Condition finale d'échec#:
+
+* Un ou plusieurs joueurs se déconnectent.
+* Les régiments de départ ne sont pas distribués à un ou plusieurs joueurs.
+
+[.underline]#Garanties minimales#
+
+
+*Trigger*
+
+Les  joueurs se retrouvent et souhaitent s'affronter.
+
+=== Scénario nominal
+
+1. Le joueur se connecte au jeu.
+2. L'arbitre prepare le jeu.
+3. Le joueur determine combien de joueurs il shouaite affronter.
+4. L'arbitre definit le tour de chaque joueur.
+5. Chaque joueur choisit  une couleur et l'arbitre lui attibu les pions correspondants à cette couleur.
+  Chaque pion représente un certain nombre de régiments, comme indiqué ci-dessous :
+
+* [big]*1* infanterie correspond à [big]*1* régiment.
+* [big]*1* cavalerie correspond à [big]*5* régiments.
+* [big]*1* artillerie correspond à [big]*10* régiments.
+
+L’arbitre distribue les régiments de départ aux joueurs selon le nombre de joueurs :
+
+* A [big]*3* joueurs chacun prend [big]*35* régiments.
+
+
+* A [big]*4* joueurs chacun prend [big]*30*  régiments.
+
+
+* A [big]*5*  joueurs chacun prend [big]*25* régiments.
+
+
+* A [big]*6*  joueurs chacun prend [big]*20*   régiments.
+
+4. Chaque joueur revendique un territoire(UC-001.1).
+6. Chaque joueur renforce son territoire a l'aide des regiments de depart(UC-001.2).
+
+
+=== Extensions
+
+=== Variantes
+
+*Fréquence:* A chaque lancement du jeu.
+
+*Hypothèses:*
+* Il existe un chemin de communication entre l'arbitre et les joueurs et entre les joueurs.
+
+=== Exigences particulières
