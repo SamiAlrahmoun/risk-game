@@ -2,28 +2,59 @@
 
 == Introduction
 
-Risk est un jeu de conquete du monde, pour trois a six joueurs, chaque joueur doit bouger ses troupes strategiquement pendant son tour s'il veut remporter la partie. Si un joueur remplit la mission qui lui a ete confie au debut du jeu, il gagne la partie.
+Risk est un jeu de conquéte du monde, pour trois à six joueurs, chaque joueur doit lancer les dés(3 dés de couleur rouge pour attaquer et de dés de couleur  blanche pour défendre)  pour gagner les batailles avec ses troupes et échanger des cartes térritoires  pour obtenir des renforts.Il s'agit ici de compter sur ses tactiles
+afin de de mener ses troupes vers la victoire en prenant d'abord le controle des territoires, puis des continents entiers pour la
+domination du monde. Le but de ce jeu est d'éliminer toutes les armees
+adverse et de contrôler les 42 territoircs du plateaude jeu.
 D’un point de vue fonctionnel, Risk a deux cas d’utilisation (ou fonctionnalités) principaux: la mise en place d’un jeu et jouer un tour.
+
+
 
 == Cas d'utilisation principaux
 
 Dans cette section, nous utilisons les Cas d’utilisation efficaces d’Alistar Cockburn pour spécifier les cas d’utilisation principaux de Risk:
 
-1. mise en place du jeu
-2. Jouer un tour
+1. mise en place du jeu .
+2. Jouer un tour.
+3. Attaquer.
+4. Défendre.
+5. Renforcer un térritoire.
+
 
 == Acteurs
 
-Nous avons considéré deux acteurs, le joueur( de 1 a n joueurs) et l'arbitre qui va reguler le jeu
+Nous avons considéré deux acteurs, le joueur et l'arbitre qui va reguler le jeu.
 
-=== Joueur
+=== 1. Joueur
 Le joueur est celui qui joue une partie. La partie comprend deux a six joueurs, qui sont des adversaires, l’un de l’autre.
 Un seul des joueurs commence la partie, l'initiateur.
 
-=== Arbitre
+=== 2. Arbitre
 L’arbitre veille au bon déroulement des parties. Il calcule les effets à appliquer en début et fin de tour.
+
+== Cas d'utilisation 1: Mise en place du jeu
 
 include::uc-mise-place.adoc[leveloffset=+2]
 
+== Cas d'utilisation 2: Mise en place du jeu
 
+include::uc-joueur-tour.adoc[leveloffset=+2]
+
+== Cas d'utilisation 3: Attaquer
+
+include::use-case-attaquer.adoc[leveloffset=+2]
+
+== Cas d'utilisation 4: Défendre
+
+include::use-case-defendre.adoc[leveloffset=+2]
+
+== Cas d'utilisation 5: Renforcer un térritoire
+
+include::use-case-renforcer-territoire.adoc[leveloffset=+2]
+
+== Modèle de classes du domaine
+
+== Dictionnaire de données
+
+include::terms.adoc[leveloffset=+2]
 == Conclusion

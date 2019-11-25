@@ -1,0 +1,86 @@
+== Id: UC-002
+== Description
+
+== Niveau
+
+ * Stratégique.
+
+== Portée
+
+ * Système.
+
+== Priorité
+ * Haute.
+
+
+== Acteurs principaux
+
+1. Les joueurs.
+2. L'arbitre.
+
+== Acteurs de soutien
+
+* Aucun.
+
+== Parties prenantes et intérêts
+
+* Les autres joueurs
+
+
+== Pré-conditions
+
+* Le joueur précedent a fini de renforcer son térritoire.
+* Tous les térritoires ont été revendiqué.
+* Le joueur doit posséder au moins un territoire dans le jeu.
+
+== Post-conditions
+
+=== Condition finale de réussite
+
+* Tous les regiments de départ sont deployés.
+* Chaque térritoire doit contenir au minimum un régiment.
+
+=== Condition finale d'échec
+
+* Le joueur n'a pas de territoire dans la partie.
+* Le joueur n'a pas renfocer ses territoire.
+* Le joueur place des troupes dans un térritoire énemie.
+
+=== Garanties minimales
+
+* Aucune
+
+== Événement déclencheur
+* Fin de revendiquation des territoires.
+
+
+
+== Scénario nominal
+
+1. Le joueur place un régiment de départ dans un térritoire déjà contrôlé.
+2. Le joueur suivant renforce un de ses térritoires.
+3. On continue jusqu'à que tous les régiments de départ soient déployés.
+
+
+
+== Extensions
+
+== Variantes
+
+== Fréquence
+* Aprés chaque revendiaquation de territoire.
+
+== Hypothèses
+
+* Aucune
+
+== Exigences particulières
+
+
+
+
+== Questions ouvertes
+
+* Aucune
+
+== Annexes

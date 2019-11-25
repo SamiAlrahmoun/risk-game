@@ -1,0 +1,75 @@
+
+
+= Description
+Le joueur pioche une carte térritoire après avoir envahi au moins
+un térritoire pendans son tour.
+
+
+= Id: UC-005
+
+= Niveau
+* Stratégique.
+
+= Portée
+
+ * Système.
+
+= Priorité
+ * Haute.
+
+= Acteurs principaux
+
+1. Les joueurs.
+2. L'arbitre.
+
+= Acteurs de soutien
+
+* Aucun pour l'instant
+
+= Parties prenantes et intérêts
+
+* Aucun.
+
+= Pré-conditions
+
+* Le joueur a envahi au moins un térritoire énemi durant le tour.
+
+
+== Post-conditions
+
+=== Condition finale de réussite
+
+* Le joueur pioche une seule carte territoire de la pile.
+
+=== Condition finale d'échec
+
+* Le joueur ne pioche pas de carte territoire
+
+=== Garanties minimales
+
+* Aucune
+
+== Événement déclencheur
+
+* Le joueur a fini d'envahir un térritoire énemi.
+
+== Scénario nominal
+
+* Le joueur reçoit la première carte térritoire de la pile
+et l'ajoute à la main.
+
+== Extensions
+
+
+== Variantes
+
+
+== Fréquence
+
+*
+
+== Exigences particulières
+
+* Aucun
+
+== Annexes

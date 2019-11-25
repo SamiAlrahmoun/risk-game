@@ -1,30 +1,32 @@
-
-= Cas d'utilisation 2: Jouer un tour
-
-
 == Description
 
-Les joueurs jouent leurs tours alternativement, plusieurs fois dans une partie.
-Le joueur commence son tour en recevant des troupes en renforts et les places sur les territoires qu'il control.
-Le joueur peut envahir un territoir s'il le veut.
-Apres l'attaque le joueur peut renforcer un des ses territoires en deplacant ces troupes d'un territoire a un notre qui lui apppartient.
-le joueur gagne une carte de territoire a la fin du tour s'il a reussir a envahire sont enemi territoir
+Un tour consiste en 4 phases:
 
+1. Recevoir et déployer les renforts(obligatoire).
+2. Combat(optionnel).
+3. manoeuvre strategique.(optionnel)
+4. Piocher une carte territoire(seulement si le joueur a conquis au moins 1 territoire pendans le tour).
 
-Niveau:: Stratégique
-Portée:: Système
-Priorité:: Haute
-Échéance:: 1e version
+== Niveau
 
+* Stratégique
+
+== Portée
+
+* Système
+
+== Priorité
+
+ * Haute
 
 == Acteurs principaux
 
-* Le joueur
-* L'arbitre
+1. Le joueur
+2. L'arbitre
 
 == Acteurs de soutien
 
-* Aucun
+* les autres joueurs.
 
 == Parties prenantes et intérêts
 
@@ -32,14 +34,14 @@ Priorité:: Haute
 
 == Pré-conditions
 
-* L'arbitre applique les effets avant chaque tour.
-// TO DO
+* La mise en place du jeu est términée.
+
 
 == Post-conditions
 
 === Condition finale de réussite
 
-// TO DO
+
 
 === Condition finale d'échec
 
@@ -55,45 +57,26 @@ Priorité:: Haute
 
 == Scénario nominal
 
-
-[arabic]
-. Le jouer recoit des troupe en renfort en fonction de ses territoires
-. Le joueur attaque  son enemi.
-. Le joueur renforce ses territoire.
-. Le joueur peut renforcer un de ses territoire.
-. L'arbitre applique les effets de fin de tour.
-
+1. Le joueur reçoit et deploit les renforts.(UC-)
+2. Quand tous les renforts sont déployés, le joueur prépare l'offensive.(UC-)
+3. Quand les offensives sont finis, le joueur peut exécuter un manoeuvre strategique.(UC-)
+4. Le joueur pioche une carte térritoire s'il a envahi au moins un térritoire.(UC-)
 
 == Extensions
-
-:xrefstyle: short
-
-<<pass>> : il ne passe pas vraiment 
 
 
 == Variantes
 
 
-
 == Fréquence
 * Chaque tour
 
-// To Do
 
 == Hypothèses
 
 * Aucune
 
-== Exigences particulières 
-
-
-
-
-== Questions ouvertes
-
-. Aucune
-
-== À faire
+== Exigences particulières
 
 
 == Annexes

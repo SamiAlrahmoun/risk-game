@@ -20,7 +20,7 @@ Un composant client et un composant Serveur
 
  * Permettre aux joueurs de rejoindre le serveur et d'interagir avec d'autres joueurs.
  * La partie AI est realisée du coté serveur.
-* Vérifier certaines actions executé dans la composant client.
+ * Vérifier certaines actions executé dans la composant client.
 
 .Le comportement souhaité de la composant Client :
 
@@ -34,31 +34,53 @@ Un composant client et un composant Serveur
 == Le composant `Game Server`
 
 //Décrire succinctement le comportement du composant.
-Cette composant gère
+//Cette composant gère
 
 === Spécification des interfaces
 
-==== Spécification de l'interface A
+==== Spécification de l'interface webServeur
 	
-Présentation de l'interface en UML (ou HUTN). 
-Description du comportement de chaque opération. 
+Présentation de l'interface en UML (ou HUTN).
+
+Description du comportement de chaque opération: 
+
+* connect(): establish connection with the server.
+* initGame(player,game) :initialise la partie.
+* endGame() termine la partie en cours.
+* shareCard(): distribue des cartes.
+* sharePions(): distribue les pions.
+* showStats() donne les statistiques en fin de jeu.
+* updateGameBoard() :met à jour le plateau de jeu.
+
+
+
+
 Spécification éventuelle des pré-conditions en OCL.
 
-==== Spécification de l'interface B 
+==== Spécification de l'interface webSocket 
 
 == Le composant `Web Client`
 
 //Décrire succinctement le comportement du composant.
 
-=== Spécification des interfaces
 
-==== Spécification de l'interface A
+==== Spécification de l'interface  webClient
 	
-Présentation de l'interface en UML (ou HUTN). 
-Description du comportement de chaque opération. 
-Spécification éventuelle des pré-conditions en OCL.
+Présentation de l'interface en UML (ou HUTN).
 
-==== Spécification de l'interface B 
+Description du comportement de chaque opération:
+
+* `connect(): void` establish connection with the server.
+* `initGame(player : String ,game: Real): Integer` :initialise la partie.
+* `joinGame(player): Object` autre joueurs rejoinnent la partie.
+
+//* pickCard(Card) :pioche la carte Card territoire seulement apres avoir conquis un territoire durant le tour. || pas besoin dans l'interface
+* DeployedRegiment() : recevoir et placer ses regiments.
+* AttackedTerritory() :attaquer un territoire.
+* ApplyMove() :faire une manoeuvre.
+//* redirectToHome() redirige les joueurs à l'écran d'accueil en fin de jeu.
+
+Spécification éventuelle des pré-conditions en OCL.
 
 
 == Interactions

@@ -1,0 +1,103 @@
+:imagesdir: ../../model
+
+== Description
+
+Lorsque le tour commence le joueur reçois des troupes de l'arbitre en function du nombre des territoire qu'il a dans le jeux.
+et il doit obligatoirement les positionnés dans le jeu.
+
+== Niveau
+
+ * Stratégique.
+
+== Portée
+
+ * Système.
+
+== Priorité
+ * Haute.
+
+
+== Acteurs principaux
+
+1. Les joueurs.
+2. L'arbitre.
+
+== Acteurs de soutien
+
+* Aucun
+
+== Parties prenantes et intérêts
+
+* Aucun
+
+== Pré-conditions
+
+* Le joueur précedent a fini de renforcer son térritoire.
+* Tous les térritoires ont été revendiqué.
+* Le joueur doit posséder au moins un territoire dans le jeu.
+* L'arbitre doit distribuer distribuer des armées à debut de tour.
+
+
+== Post-conditions
+
+=== Condition finale de réussite
+
+* Tous les regiments de départ sont deployés.
+
+=== Condition finale d'échec
+* Le joueur n'a pas de territoire dans la partie.
+* Le joueur n'a pas renfocer ses territoire.
+* Le joueur place des troupes dans un térritoire énemie.
+
+=== Garanties minimales
+
+* Aucune
+
+== Événement déclencheur
+* debut d'un tour
+
+
+
+== Scénario nominal
+
+. L'arbitre recupère le nombre de territoire du joueur.
+. L'arbitre donne un nombre de régiment au joueur en fonction de ses territoires .
+. Le joueur doit positionner ses régiments
+
+
+
+== Extensions
+
+:xrefstyle: short
+
+
+
+== Variantes
+
+
+
+== Fréquence
+* Debut du tour
+
+
+== Diagramme de sequences du scenario nominal de renforcer
+
+image::seq2.png[]
+
+== Hypothèses
+
+* Aucune
+
+== Exigences particulières
+
+
+
+
+== Questions ouvertes
+
+. Aucune
+
+== À faire
+
+
+== Annexes

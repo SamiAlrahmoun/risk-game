@@ -1,18 +1,21 @@
 
-= Cas d'utilisation 2-C: Déplacement Strategique
-
-
 == Description
 
 Après chaque attaque le joueur a le choix de renforcer un des ses territoire strategiquement en deplacant ses troupes
 vers un territoire source et un autre adjescent à ce dernier.
 Mais il doit toujours garder une armée, pour eviter l'abandon du territoire.
 
-Niveau:: Stratégique
-Portée:: Système
-Priorité:: Haute
-Échéance:: 1e version
+Niveau
 
+ Stratégique
+
+Portée
+
+ Système
+
+Priorité
+
+Haute
 
 == Acteurs principaux
 

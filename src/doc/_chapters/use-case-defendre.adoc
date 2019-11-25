@@ -1,0 +1,95 @@
+
+:imagesdir: ../../model
+
+== Description
+Pour défendre son territoire lors d'une attaque, le joueur procéde d'abord à un choix du nombre de régiments qu'il va
+utiliser durant la bataille. Le nombre de régiments ne doit pas dépasser 2.
+Ensuite, il choisit les régiments concernés puis il les place sur le champs de bataille (emplacement prevu pour les bataille).
+Enfin, le joueur s'affronte avec l'attaquant par une série de lancés de dé blancs (1 lancé par régiment).
+
+== Niveau
+
+ * Stratégique.
+
+== Portée
+
+* Système
+
+== Priorité
+
+* Haute.
+
+== Acteurs principaux
+
+1. Le joueur
+2. L'arbitre
+
+== Acteurs de soutien
+
+* Aucun
+
+== Parties prenantes et intérêts
+
+* Aucun
+
+== Pré-conditions
+
+* Un joueur adverse attaque le térritoire.
+* Au moins un régiment pour pouvoir défendre.
+
+== Post-conditions
+
+Au moins un joueur qui perd un ou plusieurs de ses régiments à l'issu de la bataille.
+
+=== Condition finale de réussite
+
+* Le joueur attaquant perd tous ces régiments et le joueur defenseur gagne la bataille.
+* Le joueur attaquant abandonne l'attaque et le joueur gagnant conserve son territoire.
+
+=== Condition finale d'échec
+
+* Le joueur defenseur perd tous ces régiments et le joueur attaquant gagne la bataille et envahit le territoire.
+
+=== Garanties minimales
+
+
+== Événement déclencheur
+
+* Un joueur qui lance une attaque sur le territoire.
+
+== Scénario nominal
+
+
+Pour défendre son territoire contre une attaque ennemi :
+1.  le joueur choisit le nombre de régiments qu'il souhaite utiliser pour défendre jusqu'à une limite de 2 régiments.
+2.  le joueur selectionne les régiments
+3.  le joueur positionne les régiments selectionnés sur le champs de bataille
+4.  Le joueur fait des lancés de dés blancs pour chaque régiment impliqué dans la bataille
+
+== Fréquence
+
+* Le joueur défend son territoire tant que celui-ci est la cible d'attaque et qu'il lui reste au moins un régiment.
+
+// To Do
+
+== Diagramme de sequences du scenario nominal de "se défendre contre une attaque"
+
+image::seq1.png[]
+
+== Exigences particulières
+
+|===
+|Contraintes                  | Descriptif
+|Temps de réponse             | Au plus 1 minute pour le joueur defenseur d'effectuer de defendre son territoire
+|Concurrence                  | Le joueur ne peut défendre que sur une attaque par tour
+|===
+
+
+== Questions ouvertes
+
+. Aucune
+
+== À faire
+
+
+== Annexes

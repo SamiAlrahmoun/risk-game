@@ -1,0 +1,111 @@
+
+== Id:UC-
+
+== Description
+Pour attaquer un térritoire énemi, le joueur doit choisir un de ses térritoires, puis choisir un térritoire énemi adjascent a son
+térrittoire. Le joueur décide le nombre de troupes qu'il souhaite envoyer pour envahir  le térritoire énemi
+
+== Niveau
+ * Stratégique.
+
+== Portée
+ * Système.
+
+== Priorité
+ * Haute.
+
+== Acteurs principaux
+
+1. Les joueur.
+2. L'arbitre.
+
+== Acteurs de soutien
+
+* Le joueur adverse.
+
+== Parties prenantes et intérêts
+
+* Aucun
+
+== Pré-conditions
+
+* Le térritoire cible est adjacent au celui du joueur.
+* Le joueur posséde *AU MOINS 2*  régiments dans le térritoires d'ou l'offensive
+  est lancé.
+* Le nombre *MAXIMUM* de régiments qui peuvent etre implicé dans une bataille est *3*.
+* Définir le territoire d'ou part l'offensive et le territoire attaque.
+
+== Post-conditions
+
+=== Condition finale de réussite
+
+* Le térritoire adverse est conquis.
+* Le joueur stoppe son offensive.
+
+
+=== Condition finale d'échec
+
+*
+
+=== Garanties minimales
+
+
+== Événement déclencheur
+
+* Le début d'une partie.
+* La fin du tour de l'adversaire.
+
+== Scénario nominal
+
+1. Le joueur prend les régiments d'attaque et les place sur le champ de bataille.
+2. Le défenseur choisit avec combien de régiments il se défend et les placent sur
+   le champ de bataille.
+3. Chaque camp lance un dé par regiment qu'il a implicé dans la bataille.
+4. l'arbitre compare le plus haut résultat du dé de l'attaquent au plus haut résutat
+   du dé du defenseur, le plus haut des deux gagne.
+5. Le joueur perdant retire le régiment perdant et le remmet dans la boite d'armée
+   correspondante.
+6. Quand la bataille est terminée, les régiments restants son renvoyés sur leurs
+   térritoires respectifs.
+
+
+
+== Extensions
+
+*5.a.* En cas d'égalite, le défenseur est *TOUJOURS* declaré vainqeur.
+
+*5.b.* Si les deux joueurs lancent plus d'un de, les deux meilleurs suivants sont
+       comparés et le plus faible perd un régiment.
+
+*6.a.* L'attaquant peut:
+
+*6.a.a* Stopper sont attaque.
+
+*6.a.b* Lancer une offensive vers un autre térritoire.
+
+*6.a.c* Lancer une offensive vers un térritoire qu'il a déjà attaqué precédemment.
+
+*6.a.d* Mettre fin a sa phase de combat pour son tour.
+
+Le joueur peut changer le térritoire d'ou part l'offensive et ainsi continuer a
+attaquer le même térritoire a partir d'un autre de ses térritoires adjacents.
+
+
+
+
+
+== Variantes
+
+
+
+== Fréquence
+
+* A chaque tour du jeu.
+
+
+== Hypothèses
+
+* Aucune
+
+
+== Annexes
