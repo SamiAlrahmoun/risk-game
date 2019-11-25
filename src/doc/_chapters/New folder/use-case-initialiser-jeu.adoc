@@ -89,8 +89,8 @@ L’arbitre distribue les régiments de départ aux joueurs selon le nombre de j
 
 * A [big]*6*  joueurs chacun prend [big]*20*   régiments.
 
-4. Chaque joueur revendique un territoire(UC-001.1).
-6. Chaque joueur renforce son territoire a l'aide des regiments de depart(UC-001.2).
+6. Chaque joueur revendique un territoire(UC-001.1).
+7. Chaque joueur renforce son territoire a l'aide des regiments de depart(UC-001.2).
 
 
 === Extensions
