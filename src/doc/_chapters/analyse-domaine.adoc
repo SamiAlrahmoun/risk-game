@@ -16,9 +16,7 @@ Dans cette section, nous utilisons les Cas d’utilisation efficaces d’Alistar
 
 1. mise en place du jeu .
 2. Jouer un tour.
-3. Attaquer.
-4. Défendre.
-5. Renforcer un térritoire.
+
 
 
 == Acteurs
@@ -34,27 +32,27 @@ L’arbitre veille au bon déroulement des parties. Il calcule les effets à app
 
 == Cas d'utilisation 1: Mise en place du jeu
 
-include::uc-mise-place.adoc[leveloffset=+2]
+include::uc-mise-place.adoc[]
 
 == Cas d'utilisation 2: Mise en place du jeu
 
-include::uc-joueur-tour.adoc[leveloffset=+2]
+include::uc-joueur-tour.adoc[]
 
 == Cas d'utilisation 3: Attaquer
 
-include::use-case-attaquer.adoc[leveloffset=+2]
+include::use-case-attaquer.adoc[]
 
 == Cas d'utilisation 4: Défendre
 
-include::use-case-defendre.adoc[leveloffset=+2]
+include::use-case-defendre.adoc[]
 
 == Cas d'utilisation 5: Renforcer un térritoire
 
-include::use-case-renforcer-territoire.adoc[leveloffset=+2]
+include::use-case-renforcer-territoire.adoc[]
 
 == Modèle de classes du domaine
 
 == Dictionnaire de données
 
-include::terms.adoc[leveloffset=+2]
+include::terms.adoc[]
 == Conclusion
