@@ -1,33 +1,43 @@
 
-== Id:UC-
+=== Revision History +
 
-== Description
+[cols=",,",options="header",]
+|===
+|Date |Author |Description of change
+| -|Sami AL RAHMOUN |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+*Use Case:* Attaquer adversaire
+
+*Id*: UC-
+
+*Description*
+
 Pour attaquer un térritoire énemi, le joueur doit choisir un de ses térritoires, puis choisir un térritoire énemi adjascent a son
-térrittoire. Le joueur décide le nombre de troupes qu'il souhaite envoyer pour envahir  le térritoire énemi
+térrittoire. Le joueur décide le nombre de troupes qu'il souhaite envoyer pour envahir  le térritoire énemi.
 
-== Niveau
- * Stratégique.
 
-== Portée
- * Système.
+*Niveau:* sub-function
 
-== Priorité
- * Haute.
+*Acteurs principaux*
 
-== Acteurs principaux
+ Le joueur.
 
-1. Les joueur.
-2. L'arbitre.
+*Acteurs de soutien*
 
-== Acteurs de soutien
+l'arbitre.
 
-* Le joueur adverse.
+*Parties prenantes et intérêts*
 
-== Parties prenantes et intérêts
+Le joueur adverse.
 
-* Aucun
-
-== Pré-conditions
+*Pre-Conditions*
 
 * Le térritoire cible est adjacent au celui du joueur.
 * Le joueur posséde *AU MOINS 2*  régiments dans le térritoires d'ou l'offensive
@@ -35,27 +45,28 @@ térrittoire. Le joueur décide le nombre de troupes qu'il souhaite envoyer pour
 * Le nombre *MAXIMUM* de régiments qui peuvent etre implicé dans une bataille est *3*.
 * Définir le territoire d'ou part l'offensive et le territoire attaque.
 
-== Post-conditions
+*Post-conditions*
 
-=== Condition finale de réussite
+[.underline]#Condition finale de réussite#:
 
 * Le térritoire adverse est conquis.
 * Le joueur stoppe son offensive.
 
 
-=== Condition finale d'échec
 
-*
+[.underline]#Condition finale d'échec#:
 
-=== Garanties minimales
+ Le joueur adverse gagne la bataille.
+
+[.underline]#Garanties minimales#
 
 
-== Événement déclencheur
+*Événement déclencheur*
 
-* Le début d'une partie.
-* La fin du tour de l'adversaire.
+Le début d'une partie..
 
-== Scénario nominal
+
+=== Scénario nominal
 
 1. Le joueur prend les régiments d'attaque et les place sur le champ de bataille.
 2. Le défenseur choisit avec combien de régiments il se défend et les placent sur
@@ -69,8 +80,7 @@ térrittoire. Le joueur décide le nombre de troupes qu'il souhaite envoyer pour
    térritoires respectifs.
 
 
-
-== Extensions
+=== Extensions
 
 *5.a.* En cas d'égalite, le défenseur est *TOUJOURS* declaré vainqeur.
 
@@ -90,22 +100,11 @@ térrittoire. Le joueur décide le nombre de troupes qu'il souhaite envoyer pour
 Le joueur peut changer le térritoire d'ou part l'offensive et ainsi continuer a
 attaquer le même térritoire a partir d'un autre de ses térritoires adjacents.
 
+=== Variantes
+
+*Fréquence:* A chaque invasion dans le jeu.
+
+*Hypothèses:*
 
 
-
-
-== Variantes
-
-
-
-== Fréquence
-
-* A chaque tour du jeu.
-
-
-== Hypothèses
-
-* Aucune
-
-
-== Annexes
+=== Exigences particulières

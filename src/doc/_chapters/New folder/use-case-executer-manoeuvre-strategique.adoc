@@ -1,0 +1,81 @@
+
+=== Revision History +
+
+[cols=",,",options="header",]
+|===
+|Date |Author |Description of change
+| -|Sami AL RAHMOUN |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+*Use Case:* executer une manoeuvre strategique.
+
+*Id*: UC-
+
+*Description*
+
+A la fin des offensives menées ,le joueur peut faire un seul déplacement de
+   régiments entre deux de ses térritoires .
+
+
+*Niveau:* sub-function
+
+*Acteurs principaux*
+
+
+Le joueur.
+
+*Acteurs de soutien*
+
+L'arbitre.
+
+*Parties prenantes et intérêts*
+
+les joueurs.
+
+*Pre-Conditions*
+
+1. Le joueur doit avoir terminé les offensives.
+2. Les térritoires doivent être adjacents ou le joueur passe par les térritoires
+   qui lui appartiennent.
+3. Les térritoires doivent appartenir au joueur.
+
+*Post-conditions*
+
+[.underline]#Condition finale de réussite#:
+
+Le joueur déplace les régiments d'un de ses térritoires vers un autre
+
+
+[.underline]#Condition finale d'échec#:
+
+Un territoire est vide.
+
+[.underline]#Garanties minimales#
+
+
+*Événement déclencheur*
+
+La fin des offensives menées par le joueur.
+
+
+=== Scénario nominal
+
+Le joueur déplace les régiments d'un térritoire vers un autre.
+
+=== Extensions
+
+
+=== Variantes
+
+*Fréquence:* A la fin de l'offensive menées par le joueur.
+
+*Hypothèses:*
+
+
+=== Exigences particulières

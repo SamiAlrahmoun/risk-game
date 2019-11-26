@@ -59,7 +59,7 @@ Tous les joueurs sont connectés.
 [.underline]#Garanties minimales#
 
 
-*Trigger*
+*Événement déclencheur*
 
 Les  joueurs se retrouvent et souhaitent s'affronter.
 

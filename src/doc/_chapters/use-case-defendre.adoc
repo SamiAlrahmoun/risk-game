@@ -4,7 +4,7 @@
 == Description
 Pour défendre son territoire lors d'une attaque, le joueur procéde d'abord à un choix du nombre de régiments qu'il va
 utiliser durant la bataille. Le nombre de régiments ne doit pas dépasser 2.
-Ensuite, il choisit les régiments concernés puis il les place sur le champs de bataille (emplacement prevu pour les bataille).
+Ensuite, il choisit les régiments concernés puis il les place sur le champs de bataille.
 Enfin, le joueur s'affronte avec l'attaquant par une série de lancés de dé blancs (1 lancé par régiment).
 
 == Niveau
@@ -26,7 +26,7 @@ Enfin, le joueur s'affronte avec l'attaquant par une série de lancés de dé bl
 
 == Acteurs de soutien
 
-* Aucun
+Le joueur adverse
 
 == Parties prenantes et intérêts
 

@@ -55,4 +55,5 @@ include::use-case-renforcer-territoire.adoc[]
 == Dictionnaire de données
 
 include::terms.adoc[]
+
 == Conclusion

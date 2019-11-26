@@ -26,7 +26,7 @@ Un tour consiste en 4 phases:
 
 == Acteurs de soutien
 
-* les autres joueurs.
+* les joueurs.
 
 == Parties prenantes et intérêts
 

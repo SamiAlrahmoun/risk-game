@@ -1,0 +1,85 @@
+
+=== Revision History +
+
+[cols=",,",options="header",]
+|===
+|Date |Author |Description of change
+| -|Sami AL RAHMOUN |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+|===
+
+*Use Case:* Jouer un tour
+
+*Id*: UC-
+
+*Description*
+
+Un tour consiste en 4 phases:
+
+1. Recevoir et déployer les renforts(obligatoire).
+2. Combat(optionnel).
+3. manoeuvre strategique.(optionnel)
+4. Piocher une carte territoire(seulement si le joueur a conquis au moins 1 territoire pendans le tour).
+
+
+*Niveau:* sub-function
+
+*Acteurs principaux*
+
+1. Le joueur
+2. L'arbitre
+
+*Acteurs de soutien*
+
+les joueurs.
+
+*Parties prenantes et intérêts*
+
+
+
+*Pre-Conditions*
+
+La mise en place du jeu est términée.
+
+*Post-conditions*
+
+[.underline]#Condition finale de réussite#:
+
+
+
+
+[.underline]#Condition finale d'échec#:
+
+ Le jeu n'est pas instantifié.
+
+[.underline]#Garanties minimales#
+
+
+*Événement déclencheur*
+
+* Le début d'une partie.
+* La fin du tour de l'adversaire.
+
+
+=== Scénario nominal
+
+1. Le joueur reçoit et deploit les renforts.(UC-)
+2. Quand tous les renforts sont déployés, le joueur prépare l'offensive.(UC-)
+3. Quand les offensives sont finis, le joueur peut exécuter un manoeuvre strategique.(UC-)
+4. Le joueur pioche une carte térritoire s'il a envahi au moins un térritoire.(UC-)
+
+=== Extensions
+
+=== Variantes
+
+*Fréquence:* A chaque tour.
+
+*Hypothèses:*
+
+
+=== Exigences particulières
